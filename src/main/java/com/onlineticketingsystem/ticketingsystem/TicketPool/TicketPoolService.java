@@ -26,5 +26,4 @@ public class TicketPoolService {
     public Ticket getTicket() {
         return ticketQueue.poll();
     }
-
 }
