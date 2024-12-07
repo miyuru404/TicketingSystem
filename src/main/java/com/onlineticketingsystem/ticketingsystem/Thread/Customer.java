@@ -1,8 +1,8 @@
 package com.onlineticketingsystem.ticketingsystem.Thread;
 
 import com.onlineticketingsystem.ticketingsystem.CLI.TicketingSystemConfigurationControl;
-import com.onlineticketingsystem.ticketingsystem.Ticket.Ticket;
-import com.onlineticketingsystem.ticketingsystem.TicketPool.TicketPoolService;
+import com.onlineticketingsystem.ticketingsystem.Model.Ticket;
+import com.onlineticketingsystem.ticketingsystem.Service.TicketPoolService;
 
 public class Customer extends Thread {
 

@@ -1,4 +1,4 @@
-package com.onlineticketingsystem.ticketingsystem.Ticket;
+package com.onlineticketingsystem.ticketingsystem.Model;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 

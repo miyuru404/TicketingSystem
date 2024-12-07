@@ -1,7 +1,7 @@
-package com.onlineticketingsystem.ticketingsystem.TicketPool;
+package com.onlineticketingsystem.ticketingsystem.Service;
 
 
-import com.onlineticketingsystem.ticketingsystem.Ticket.Ticket;
+import com.onlineticketingsystem.ticketingsystem.Model.Ticket;
 import com.onlineticketingsystem.ticketingsystem.CLI.TicketingSystemConfigurationControl;
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Autowired;

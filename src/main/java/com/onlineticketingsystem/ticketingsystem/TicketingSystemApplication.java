@@ -1,7 +1,7 @@
 package com.onlineticketingsystem.ticketingsystem;
 
 import com.onlineticketingsystem.ticketingsystem.Thread.Customer;
-import com.onlineticketingsystem.ticketingsystem.TicketPool.TicketPoolService;
+import com.onlineticketingsystem.ticketingsystem.Service.TicketPoolService;
 import com.onlineticketingsystem.ticketingsystem.CLI.TicketingSystemConfigurationControl;
 import com.onlineticketingsystem.ticketingsystem.Thread.Vendor;
 import org.springframework.boot.SpringApplication;

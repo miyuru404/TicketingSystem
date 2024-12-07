@@ -1,7 +1,7 @@
 package com.onlineticketingsystem.ticketingsystem.controller;
 
-import com.onlineticketingsystem.ticketingsystem.Ticket.Ticket;
-import com.onlineticketingsystem.ticketingsystem.TicketPool.TicketPoolService;
+import com.onlineticketingsystem.ticketingsystem.Model.Ticket;
+import com.onlineticketingsystem.ticketingsystem.Service.TicketPoolService;
 import org.springframework.web.bind.annotation.*;
 import java.util.Queue;
 
@@ -49,4 +49,3 @@ public class TicketPoolController {
         return ticketPool.getTicketQueue();
     }
 }
-
