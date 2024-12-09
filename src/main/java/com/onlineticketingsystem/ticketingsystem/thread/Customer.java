@@ -1,8 +1,8 @@
-package com.onlineticketingsystem.ticketingsystem.Thread;
+package com.onlineticketingsystem.ticketingsystem.thread;
 
-import com.onlineticketingsystem.ticketingsystem.CLI.TicketingSystemConfigurationControl;
-import com.onlineticketingsystem.ticketingsystem.Model.Ticket;
-import com.onlineticketingsystem.ticketingsystem.Service.TicketPoolService;
+import com.onlineticketingsystem.ticketingsystem.configuration.TicketingSystemConfiguration;
+import com.onlineticketingsystem.ticketingsystem.model.Ticket;
+import com.onlineticketingsystem.ticketingsystem.service.TicketPoolService;
 
 public class Customer extends Thread {
 
@@ -10,7 +10,7 @@ public class Customer extends Thread {
     private final int customerRetrievalRate;
 
 
-    public Customer(TicketPoolService ticketPoolService, TicketingSystemConfigurationControl config) {
+    public Customer(TicketPoolService ticketPoolService, TicketingSystemConfiguration config) {
         this.ticketPoolService = ticketPoolService;
         this.customerRetrievalRate=config.getCustomerRetrievalRate();
 
@@ -20,7 +20,7 @@ public class Customer extends Thread {
     public void run() {
         try {
             while (true) {
-                Ticket ticket = ticketPoolService.getTicket(); // Get ticket from the pool
+                Ticket ticket = ticketPoolService.buyTicket(); // Get ticket from the pool
                 if (ticket != null) {
                     System.out.println("Customer bought ticket: " + ticket);
                 } else {

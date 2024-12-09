@@ -1,51 +1,63 @@
 package com.onlineticketingsystem.ticketingsystem.controller;
 
-import com.onlineticketingsystem.ticketingsystem.Model.Ticket;
-import com.onlineticketingsystem.ticketingsystem.Service.TicketPoolService;
+import com.onlineticketingsystem.ticketingsystem.model.Ticket;
+import com.onlineticketingsystem.ticketingsystem.service.TicketPoolService;
 import org.springframework.web.bind.annotation.*;
+import com.onlineticketingsystem.ticketingsystem.configuration.TicketingSystemRunner;
+
+
 import java.util.Queue;
 
 @RestController
 @RequestMapping("/api/ticket-pool")
-
 public class TicketPoolController {
-    private TicketPoolService ticketPool;
 
-    public TicketPoolController(TicketPoolService ticketPool) {
-        this.ticketPool = ticketPool;
+    private final TicketPoolService ticketPoolService;
+    private final TicketingSystemRunner ticketingSystemRunner;
+
+    public TicketPoolController(TicketPoolService ticketPoolService , TicketingSystemRunner ticketingSystemRunner) {
+        this.ticketPoolService = ticketPoolService;
+        this.ticketingSystemRunner = ticketingSystemRunner;
     }
+
+    /**
+     * Start the system with vendor and customer threads
+     */
+    @PostMapping("/start")
+    public String startSystem() {
+        return ticketingSystemRunner.startSystem();
+    }
+
+    /**
+     * Stop the system by interrupting all customer and vendor threads
+     */
+    @PostMapping("/stop")
+    public String stopSystem() {
+        return ticketingSystemRunner.stopSystem();
+    }
+
+
+    /**
+     * Add ticket to the pool
+     */
     @PostMapping("/add-ticket")
-    public synchronized void addTicket(@RequestBody Ticket ticket) {
-        while (ticketPool.getTicketQueue().size() >= ticketPool.getMaximumTicketCapacity()){
-            try {
-                System.out.println("wait");
-                wait();
-
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e.getMessage()); // For Client-Server application
-
-            }
-        }
-        this.ticketPool.addTicket(ticket);
-        notifyAll(); // Notify all the waiting threads
-        System.out.println("Ticket added by - " + Thread.currentThread().getName() + " - current size is - " + ticketPool.getTicketQueue().size());
+    public void addTicket(@RequestBody Ticket ticket) {
+        ticketPoolService.addTicket(ticket);
     }
+
+    /**
+     * Buy ticket from the pool
+     */
     @GetMapping("/buy-ticket")
-    public synchronized Ticket buyTicket(){
-        while (ticketPool.getTicketQueue().isEmpty()){
-            try {
-                wait(); // If queue is empty add Customer to waiting status
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e.getMessage());
-            }
-        }
-        notifyAll();
-        System.out.println("Ticket bought by - " + Thread.currentThread().getName() + " - current size is - " + ticketPool.getTicketQueue().size() + " - Ticket is - " + ticketPool.getTicketQueue().peek());
-        return ticketPool.getTicket();
-
+    public Ticket buyTicket() {
+        return ticketPoolService.buyTicket();
     }
+
+    /**
+     * Show all tickets in the pool
+     */
     @GetMapping("/show-all-tickets")
     public Queue<Ticket> getAllTickets() {
-        return ticketPool.getTicketQueue();
+        return ticketPoolService.getAllTickets();
     }
 }

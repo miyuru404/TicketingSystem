@@ -1,21 +1,22 @@
-package com.onlineticketingsystem.ticketingsystem.CLI;
+package com.onlineticketingsystem.ticketingsystem.configuration;
 
 import lombok.Getter;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.Scanner;
 
-@Component
+
+@Service
 @Getter
-public class TicketingSystemConfigurationControl {
+public class TicketingSystemConfiguration {
 
-    private int totalTickets;
-    private int ticketReleaseRate;
-    protected int customerRetrievalRate;
+    private final int totalTickets;
+    private final int ticketReleaseRate;
+    protected final int customerRetrievalRate;
+    private final int maxTicketCapacity;
 
-    private  int maxTicketCapacity;
-
-    public TicketingSystemConfigurationControl() {
+    public TicketingSystemConfiguration() {
         Scanner scanner = new Scanner(System.in);
 
         this.totalTickets = getInput(scanner, "Enter Total Tickets: ");
