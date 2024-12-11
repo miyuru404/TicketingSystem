@@ -1,6 +1,7 @@
-package com.onlineticketingsystem.ticketingsystem.thread;
+package com.onlineticketingsystem.ticketingsystem.model.thread;
 
-import com.onlineticketingsystem.ticketingsystem.configuration.TicketingSystemConfiguration;
+import com.onlineticketingsystem.ticketingsystem.model.Configuration;
+import com.onlineticketingsystem.ticketingsystem.service.ConfigurationService;
 import com.onlineticketingsystem.ticketingsystem.model.Ticket;
 import com.onlineticketingsystem.ticketingsystem.service.TicketPoolService;
 import lombok.Getter;
@@ -13,10 +14,10 @@ public class Vendor extends Thread {
 
     private final int vendorID;
     private final TicketPoolService ticketPoolService;
-    private final TicketingSystemConfiguration config; // Dependency Injection for config
+    private final ConfigurationService config; // Dependency Injection for config
     private static final Logger logger = LoggerFactory.getLogger(Vendor.class);
-    private final int ticketReleaseRate;
-    private final int totalTicketCanSell;
+    private int ticketReleaseRate;
+    private int totalTicketCanSell;
     private int totalTicketSold = 0;
     private int ticketId = 1; // Unique Ticket ID for this Vendor
     private final int ticketPrice = 1000; // Fixed ticket price
@@ -24,16 +25,17 @@ public class Vendor extends Thread {
     /**
      * Vendor constructor with configuration and pool service
      */
-    public Vendor(int vendorID, TicketPoolService ticketPoolService, TicketingSystemConfiguration config) {
+    public Vendor(int vendorID, TicketPoolService ticketPoolService ,ConfigurationService config) {
         this.vendorID = vendorID;
         this.ticketPoolService = ticketPoolService;
         this.config = config;
-        this.ticketReleaseRate = config.getTicketReleaseRate();
-        this.totalTicketCanSell = config.getTotalTickets();
+
     }
 
     @Override
     public void run() {
+        this.ticketReleaseRate = config.getConfig().getTicketReleaseRate();
+        this.totalTicketCanSell = config.getConfig().getTotalTicketAmount();
         try {
             while (totalTicketSold < totalTicketCanSell) {
                 // Generate a unique Event ID (uses vendorID and ticketId)
@@ -45,7 +47,7 @@ public class Vendor extends Thread {
                 // Add ticket to the shared ticket pool
                 ticketPoolService.addTicket(ticket, vendorID);
 
-                // Print ticket details for debugging (optional)
+
                 logger.info("Vendor {} added ticket: {}", vendorID, ticket);
 
                 // Update the ticket counters

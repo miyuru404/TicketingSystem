@@ -1,6 +1,7 @@
-package com.onlineticketingsystem.ticketingsystem.thread;
+package com.onlineticketingsystem.ticketingsystem.model.thread;
 
-import com.onlineticketingsystem.ticketingsystem.configuration.TicketingSystemConfiguration;
+
+import com.onlineticketingsystem.ticketingsystem.service.ConfigurationService;
 import com.onlineticketingsystem.ticketingsystem.model.Ticket;
 import com.onlineticketingsystem.ticketingsystem.service.TicketPoolService;
 import org.slf4j.Logger;
@@ -9,26 +10,26 @@ import org.slf4j.LoggerFactory;
 public class Customer extends Thread {
 
     private final TicketPoolService ticketPoolService;
-    private final TicketingSystemConfiguration config; // Dependency Injection
-    private final int customerRetrievalRate;
-    private final int totalTicketCanBuy;
+    private final ConfigurationService config; // Dependency Injection
+    private  int customerRetrievalRate;
+    private  int totalTicketCanBuy;
     private int totalTicketCount = 0;
-
     private static final Logger logger = LoggerFactory.getLogger(Customer.class);
 
 
 
 
     // Constructor with injected TicketPoolService and TicketingSystemConfiguration
-    public Customer(TicketPoolService ticketPoolService, TicketingSystemConfiguration config) {
+    public Customer(TicketPoolService ticketPoolService ,ConfigurationService config) {
         this.ticketPoolService = ticketPoolService;
         this.config = config;
-        this.customerRetrievalRate = config.getCustomerRetrievalRate(); // Get the value from the config
-        this.totalTicketCanBuy = config.getTotalTickets(); // Get the total tickets
+         // Get the total tickets
     }
 
     @Override
     public void run() {
+        this.customerRetrievalRate = config.getConfig().getCustomerRetrievalRate(); // Get the value from the config
+        this.totalTicketCanBuy = config.getConfig().getMaxTicketCapacity();
         try {
             while (totalTicketCount < totalTicketCanBuy) {
                 // Attempt to buy a ticket from the shared pool

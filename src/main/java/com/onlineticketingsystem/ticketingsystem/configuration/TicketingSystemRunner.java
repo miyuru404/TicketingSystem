@@ -1,8 +1,9 @@
 package com.onlineticketingsystem.ticketingsystem.configuration;
 
+import com.onlineticketingsystem.ticketingsystem.service.ConfigurationService;
 import com.onlineticketingsystem.ticketingsystem.service.TicketPoolService;
-import com.onlineticketingsystem.ticketingsystem.thread.Customer;
-import com.onlineticketingsystem.ticketingsystem.thread.Vendor;
+import com.onlineticketingsystem.ticketingsystem.model.thread.Customer;
+import com.onlineticketingsystem.ticketingsystem.model.thread.Vendor;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -12,16 +13,19 @@ import java.util.List;
 public class TicketingSystemRunner {
 
     private final TicketPoolService ticketPoolService;
-    private final TicketingSystemConfiguration config; // Injected configuration
+    private final ConfigurationService config; // Injected configuration
     private boolean systemRunning = false;
     private final List<Thread> vendorThreads = new ArrayList<>();
     private final List<Thread> customerThreads = new ArrayList<>();
 
     // Constructor injection for ticket pool and configuration
-    public TicketingSystemRunner(TicketPoolService ticketPoolService, TicketingSystemConfiguration config) {
+    public TicketingSystemRunner(TicketPoolService ticketPoolService, ConfigurationService config) {
         this.ticketPoolService = ticketPoolService;
         this.config = config;
 
+    }
+    public void getConfiguration() {
+        config.getInput();
     }
 
     // Start the ticketing system
@@ -33,9 +37,10 @@ public class TicketingSystemRunner {
 
             systemRunning = true;
 
+
             // Start Vendor Threads
             for (int i = 1; i <= 2; i++) {
-                Vendor vendor = new Vendor(i, ticketPoolService, config); // Pass config to Vendor
+                Vendor vendor = new Vendor(i, ticketPoolService , config  ); // Pass config to Vendor
                 vendor.setPriority(Thread.MAX_PRIORITY); // Set vendor thread priority
                 vendorThreads.add(vendor);
                 vendor.start();
@@ -43,11 +48,12 @@ public class TicketingSystemRunner {
 
             // Start Customer Threads
             for (int i = 1; i <= 2; i++) {
-                Customer customer = new Customer(ticketPoolService, config);
+                Customer customer = new Customer(ticketPoolService , config  );
                 customerThreads.add(customer);
                 customer.start();
             }
         }
+
 
         return "System started with 2 vendors and 2 customers!";
     }

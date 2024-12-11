@@ -1,4 +1,4 @@
 package com.onlineticketingsystem.ticketingsystem.controller;
 
-public class TicketingSystemConfigurationController {
+public class ConfigurationController {
 }

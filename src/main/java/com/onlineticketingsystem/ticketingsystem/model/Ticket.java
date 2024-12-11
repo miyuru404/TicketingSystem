@@ -1,14 +1,14 @@
 package com.onlineticketingsystem.ticketingsystem.model;
-import com.fasterxml.jackson.annotation.JsonProperty;
+//import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 @Data //set getesr and setars and to string method
 public class Ticket  {
-    @JsonProperty//json data to java data
+    //@JsonProperty//json data to java data
     private int ticketId;
-    @JsonProperty
+    //@JsonProperty
     private String eventID;
-    @JsonProperty
+    //@JsonProperty
     private int ticketPrice;
 
     public Ticket(int ticketId, String eventID, int ticketPrice) {
