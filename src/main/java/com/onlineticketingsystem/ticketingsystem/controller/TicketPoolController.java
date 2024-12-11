@@ -3,7 +3,6 @@ package com.onlineticketingsystem.ticketingsystem.controller;
 import com.onlineticketingsystem.ticketingsystem.model.Ticket;
 import com.onlineticketingsystem.ticketingsystem.service.TicketPoolService;
 import org.springframework.web.bind.annotation.*;
-
 import com.onlineticketingsystem.ticketingsystem.configuration.TicketingSystemRunner;
 import java.util.Queue;
 

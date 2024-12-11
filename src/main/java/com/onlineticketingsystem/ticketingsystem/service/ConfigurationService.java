@@ -2,13 +2,14 @@ package com.onlineticketingsystem.ticketingsystem.service;
 
 import com.onlineticketingsystem.ticketingsystem.model.Configuration;
 import lombok.Getter;
+import lombok.Setter;
 import org.springframework.stereotype.Service;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 @Service
 @Getter
-
+@Setter
 public class ConfigurationService {
 
     private Configuration config;
@@ -58,4 +59,5 @@ public class ConfigurationService {
             }
         }
     }
+
 }

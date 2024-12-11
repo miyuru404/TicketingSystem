@@ -9,21 +9,21 @@ import org.slf4j.LoggerFactory;
 
 public class Customer extends Thread {
 
-    private final TicketPoolService ticketPoolService;
-    private final ConfigurationService config; // Dependency Injection
+
     private  int customerRetrievalRate;
     private  int totalTicketCanBuy;
     private int totalTicketCount = 0;
+
     private static final Logger logger = LoggerFactory.getLogger(Customer.class);
+    private final TicketPoolService ticketPoolService;
+    private final ConfigurationService config; // Dependency Injection
 
 
-
-
-    // Constructor with injected TicketPoolService and TicketingSystemConfiguration
+    // Constructor with dependency injected
     public Customer(TicketPoolService ticketPoolService ,ConfigurationService config) {
         this.ticketPoolService = ticketPoolService;
         this.config = config;
-         // Get the total tickets
+
     }
 
     @Override
@@ -32,18 +32,18 @@ public class Customer extends Thread {
         this.totalTicketCanBuy = config.getConfig().getMaxTicketCapacity();
         try {
             while (totalTicketCount < totalTicketCanBuy) {
-                // Attempt to buy a ticket from the shared pool
+                // Attempt to buy a ticket from the shared pool.
                 Ticket ticket = ticketPoolService.buyTicket();
                 if (ticket != null) {
-                    totalTicketCount++;
-                    logger.info("Customer bought ticket: {} | Total tickets bought: {}", ticket, totalTicketCount);
+                    totalTicketCount++;//if attempt pass
+                    logger.info("Customer bought ticket: {} ", ticket);
 
-                } else {
+                } else {//if attempt fail.
                     logger.warn("No tickets available for Customer to buy.");
 
                 }
-
                 // Wait before attempting to buy the next ticket
+                //used configuration value
                 Thread.sleep(customerRetrievalRate);
             }
             logger.info("Customer has reached their ticket limit. Total tickets bought: {}", totalTicketCount);

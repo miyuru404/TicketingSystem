@@ -5,7 +5,6 @@ import com.onlineticketingsystem.ticketingsystem.service.TicketPoolService;
 import com.onlineticketingsystem.ticketingsystem.model.thread.Customer;
 import com.onlineticketingsystem.ticketingsystem.model.thread.Vendor;
 import org.springframework.stereotype.Service;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,9 +23,6 @@ public class TicketingSystemRunner {
         this.config = config;
 
     }
-    public void getConfiguration() {
-        config.getInput();
-    }
 
     // Start the ticketing system
     public String startSystem() {
@@ -37,11 +33,10 @@ public class TicketingSystemRunner {
 
             systemRunning = true;
 
-
             // Start Vendor Threads
             for (int i = 1; i <= 2; i++) {
                 Vendor vendor = new Vendor(i, ticketPoolService , config  ); // Pass config to Vendor
-                vendor.setPriority(Thread.MAX_PRIORITY); // Set vendor thread priority
+                //vendor.setPriority(Thread.MAX_PRIORITY); // Set vendor thread priority
                 vendorThreads.add(vendor);
                 vendor.start();
             }
@@ -53,8 +48,6 @@ public class TicketingSystemRunner {
                 customer.start();
             }
         }
-
-
         return "System started with 2 vendors and 2 customers!";
     }
 
@@ -71,7 +64,7 @@ public class TicketingSystemRunner {
                 try {
                     vendorThread.join(); // Wait for vendor thread to finish
                 } catch (InterruptedException e) {
-                    Thread.currentThread().interrupt(); // Handle interruption
+                    Thread.currentThread().interrupt();
                 }
             }
             vendorThreads.clear(); // Clear vendor thread list
@@ -82,14 +75,13 @@ public class TicketingSystemRunner {
                 try {
                     customerThread.join(); // Wait for customer thread to finish
                 } catch (InterruptedException e) {
-                    Thread.currentThread().interrupt(); // Handle interruption
+                    Thread.currentThread().interrupt();
                 }
             }
             customerThreads.clear(); // Clear customer thread list
 
-            systemRunning = false; // Set system to not running
+            systemRunning = false; // update system status to not running
         }
-
         return "System stopped successfully!";
     }
 }
