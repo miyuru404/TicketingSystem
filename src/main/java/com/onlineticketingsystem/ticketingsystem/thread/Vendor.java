@@ -4,6 +4,9 @@ import com.onlineticketingsystem.ticketingsystem.configuration.TicketingSystemCo
 import com.onlineticketingsystem.ticketingsystem.model.Ticket;
 import com.onlineticketingsystem.ticketingsystem.service.TicketPoolService;
 import lombok.Getter;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 @Getter
 public class Vendor extends Thread {
@@ -11,7 +14,7 @@ public class Vendor extends Thread {
     private final int vendorID;
     private final TicketPoolService ticketPoolService;
     private final TicketingSystemConfiguration config; // Dependency Injection for config
-
+    private static final Logger logger = LoggerFactory.getLogger(Vendor.class);
     private final int ticketReleaseRate;
     private final int totalTicketCanSell;
     private int totalTicketSold = 0;
@@ -43,7 +46,7 @@ public class Vendor extends Thread {
                 ticketPoolService.addTicket(ticket, vendorID);
 
                 // Print ticket details for debugging (optional)
-                System.out.println("Vendor " + vendorID + " added ticket: " + ticket);
+                logger.info("Vendor {} added ticket: {}", vendorID, ticket);
 
                 // Update the ticket counters
                 ticketId++;
@@ -53,10 +56,11 @@ public class Vendor extends Thread {
                 Thread.sleep(ticketReleaseRate);
             }
 
-            System.out.println("Vendor " + vendorID + " has reached the ticket limit. Total tickets sold: " + totalTicketSold);
+            logger.info("Vendor {} has reached the ticket limit. Total tickets sold: {}", vendorID, totalTicketSold);
+
 
         } catch (InterruptedException e) {
-            System.out.println("Vendor " + vendorID + " thread interrupted.");
+            logger.error("Vendor {} thread interrupted.", vendorID);
             Thread.currentThread().interrupt(); // Re-set interrupted status
         }
     }

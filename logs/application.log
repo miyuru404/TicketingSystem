@@ -1,0 +1,110 @@
+2024-12-11 14:22:09 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 17768 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\ticketingSystem\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\ticketingSystem)
+2024-12-11 14:22:09 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 14:22:09 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11 14:22:09 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11 14:22:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-11 14:22:10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-11 14:22:10 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 14:22:10 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11 14:22:10 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 14:22:10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 973 ms
+2024-12-11 14:22:29 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 19464 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\ticketingSystem\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\ticketingSystem)
+2024-12-11 14:22:29 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 14:22:29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11 14:22:29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11 14:22:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-11 14:22:30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-11 14:22:30 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 14:22:30 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11 14:22:30 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 14:22:30 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 781 ms
+2024-12-11 14:22:44 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-11 14:22:44 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-11 14:22:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-11 14:22:44 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 15.674 seconds (process running for 16.121)
+2024-12-11 14:22:44 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=1, eventID=V1EVT1, ticketPrice=1000)
+2024-12-11 14:22:44 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=1, eventID=V1EVT1, ticketPrice=1000) | Total tickets bought: 1
+2024-12-11 14:22:44 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=1, eventID=V2EVT1, ticketPrice=1000)
+2024-12-11 14:22:44 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=1, eventID=V2EVT1, ticketPrice=1000) | Total tickets bought: 1
+2024-12-11 14:22:45 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=2, eventID=V1EVT2, ticketPrice=1000)
+2024-12-11 14:22:45 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=2, eventID=V2EVT2, ticketPrice=1000)
+2024-12-11 14:22:45 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=2, eventID=V1EVT2, ticketPrice=1000) | Total tickets bought: 2
+2024-12-11 14:22:45 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=2, eventID=V2EVT2, ticketPrice=1000) | Total tickets bought: 2
+2024-12-11 14:22:46 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=3, eventID=V2EVT3, ticketPrice=1000) | Total tickets bought: 3
+2024-12-11 14:22:46 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=3, eventID=V1EVT3, ticketPrice=1000)
+2024-12-11 14:22:46 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=3, eventID=V2EVT3, ticketPrice=1000)
+2024-12-11 14:22:46 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=3, eventID=V1EVT3, ticketPrice=1000) | Total tickets bought: 3
+2024-12-11 14:22:47 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=4, eventID=V2EVT4, ticketPrice=1000)
+2024-12-11 14:22:47 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=4, eventID=V1EVT4, ticketPrice=1000)
+2024-12-11 14:22:47 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=4, eventID=V1EVT4, ticketPrice=1000) | Total tickets bought: 4
+2024-12-11 14:22:47 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=4, eventID=V2EVT4, ticketPrice=1000) | Total tickets bought: 4
+2024-12-11 14:22:48 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=5, eventID=V2EVT5, ticketPrice=1000)
+2024-12-11 14:22:48 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=5, eventID=V1EVT5, ticketPrice=1000)
+2024-12-11 14:22:48 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=5, eventID=V2EVT5, ticketPrice=1000) | Total tickets bought: 5
+2024-12-11 14:22:48 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=5, eventID=V1EVT5, ticketPrice=1000) | Total tickets bought: 5
+2024-12-11 14:22:49 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=6, eventID=V1EVT6, ticketPrice=1000)
+2024-12-11 14:22:49 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=6, eventID=V2EVT6, ticketPrice=1000)
+2024-12-11 14:22:49 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=6, eventID=V2EVT6, ticketPrice=1000) | Total tickets bought: 6
+2024-12-11 14:22:49 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=6, eventID=V1EVT6, ticketPrice=1000) | Total tickets bought: 6
+2024-12-11 14:22:50 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=7, eventID=V1EVT7, ticketPrice=1000)
+2024-12-11 14:22:50 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=7, eventID=V2EVT7, ticketPrice=1000)
+2024-12-11 14:22:50 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=7, eventID=V1EVT7, ticketPrice=1000) | Total tickets bought: 7
+2024-12-11 14:22:50 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=7, eventID=V2EVT7, ticketPrice=1000) | Total tickets bought: 7
+2024-12-11 14:22:51 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=8, eventID=V2EVT8, ticketPrice=1000)
+2024-12-11 14:22:51 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=8, eventID=V1EVT8, ticketPrice=1000)
+2024-12-11 14:22:51 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=8, eventID=V1EVT8, ticketPrice=1000) | Total tickets bought: 8
+2024-12-11 14:22:51 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=8, eventID=V2EVT8, ticketPrice=1000) | Total tickets bought: 8
+2024-12-11 14:22:52 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=9, eventID=V2EVT9, ticketPrice=1000)
+2024-12-11 14:22:52 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=9, eventID=V1EVT9, ticketPrice=1000)
+2024-12-11 14:22:53 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=9, eventID=V2EVT9, ticketPrice=1000) | Total tickets bought: 9
+2024-12-11 14:22:53 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=9, eventID=V1EVT9, ticketPrice=1000) | Total tickets bought: 9
+2024-12-11 14:22:54 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=10, eventID=V2EVT10, ticketPrice=1000)
+2024-12-11 14:22:54 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=10, eventID=V1EVT10, ticketPrice=1000)
+2024-12-11 14:22:54 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=10, eventID=V2EVT10, ticketPrice=1000) | Total tickets bought: 10
+2024-12-11 14:22:54 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=10, eventID=V1EVT10, ticketPrice=1000) | Total tickets bought: 10
+2024-12-11 14:22:55 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=11, eventID=V1EVT11, ticketPrice=1000)
+2024-12-11 14:22:55 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=11, eventID=V2EVT11, ticketPrice=1000)
+2024-12-11 14:22:55 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=11, eventID=V2EVT11, ticketPrice=1000) | Total tickets bought: 11
+2024-12-11 14:22:55 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=11, eventID=V1EVT11, ticketPrice=1000) | Total tickets bought: 11
+2024-12-11 14:22:56 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=12, eventID=V2EVT12, ticketPrice=1000)
+2024-12-11 14:22:56 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=12, eventID=V1EVT12, ticketPrice=1000)
+2024-12-11 14:22:56 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=12, eventID=V2EVT12, ticketPrice=1000) | Total tickets bought: 12
+2024-12-11 14:22:56 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=12, eventID=V1EVT12, ticketPrice=1000) | Total tickets bought: 12
+2024-12-11 14:22:57 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=13, eventID=V2EVT13, ticketPrice=1000)
+2024-12-11 14:22:57 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=13, eventID=V1EVT13, ticketPrice=1000)
+2024-12-11 14:22:57 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=13, eventID=V2EVT13, ticketPrice=1000) | Total tickets bought: 13
+2024-12-11 14:22:57 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=13, eventID=V1EVT13, ticketPrice=1000) | Total tickets bought: 13
+2024-12-11 14:22:58 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=14, eventID=V2EVT14, ticketPrice=1000)
+2024-12-11 14:22:58 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=14, eventID=V1EVT14, ticketPrice=1000)
+2024-12-11 14:22:58 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=14, eventID=V2EVT14, ticketPrice=1000) | Total tickets bought: 14
+2024-12-11 14:22:58 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=14, eventID=V1EVT14, ticketPrice=1000) | Total tickets bought: 14
+2024-12-11 14:22:59 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=15, eventID=V2EVT15, ticketPrice=1000)
+2024-12-11 14:22:59 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=15, eventID=V1EVT15, ticketPrice=1000)
+2024-12-11 14:22:59 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=15, eventID=V2EVT15, ticketPrice=1000) | Total tickets bought: 15
+2024-12-11 14:22:59 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=15, eventID=V1EVT15, ticketPrice=1000) | Total tickets bought: 15
+2024-12-11 14:23:00 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=16, eventID=V2EVT16, ticketPrice=1000)
+2024-12-11 14:23:00 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=16, eventID=V1EVT16, ticketPrice=1000)
+2024-12-11 14:23:00 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=16, eventID=V2EVT16, ticketPrice=1000) | Total tickets bought: 16
+2024-12-11 14:23:00 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=16, eventID=V1EVT16, ticketPrice=1000) | Total tickets bought: 16
+2024-12-11 14:23:01 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=17, eventID=V2EVT17, ticketPrice=1000)
+2024-12-11 14:23:01 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=17, eventID=V1EVT17, ticketPrice=1000)
+2024-12-11 14:23:01 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=17, eventID=V1EVT17, ticketPrice=1000) | Total tickets bought: 17
+2024-12-11 14:23:01 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=17, eventID=V2EVT17, ticketPrice=1000) | Total tickets bought: 17
+2024-12-11 14:23:02 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=18, eventID=V2EVT18, ticketPrice=1000)
+2024-12-11 14:23:02 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=18, eventID=V1EVT18, ticketPrice=1000)
+2024-12-11 14:23:02 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=18, eventID=V2EVT18, ticketPrice=1000) | Total tickets bought: 18
+2024-12-11 14:23:02 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=18, eventID=V1EVT18, ticketPrice=1000) | Total tickets bought: 18
+2024-12-11 14:23:03 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=19, eventID=V1EVT19, ticketPrice=1000)
+2024-12-11 14:23:03 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=19, eventID=V2EVT19, ticketPrice=1000)
+2024-12-11 14:23:03 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=19, eventID=V2EVT19, ticketPrice=1000) | Total tickets bought: 19
+2024-12-11 14:23:03 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=19, eventID=V1EVT19, ticketPrice=1000) | Total tickets bought: 19
+2024-12-11 14:23:04 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=20, eventID=V1EVT20, ticketPrice=1000)
+2024-12-11 14:23:04 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=20, eventID=V2EVT20, ticketPrice=1000)
+2024-12-11 14:23:04 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=20, eventID=V1EVT20, ticketPrice=1000) | Total tickets bought: 20
+2024-12-11 14:23:04 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer bought ticket: Ticket(ticketId=20, eventID=V2EVT20, ticketPrice=1000) | Total tickets bought: 20
+2024-12-11 14:23:05 [Thread-7] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 1 has reached the ticket limit. Total tickets sold: 20
+2024-12-11 14:23:05 [Thread-8] INFO  c.o.ticketingsystem.thread.Vendor - Vendor 2 has reached the ticket limit. Total tickets sold: 20
+2024-12-11 14:23:05 [Thread-10] INFO  c.o.ticketingsystem.thread.Customer - Customer has reached their ticket limit. Total tickets bought: 20
+2024-12-11 14:23:05 [Thread-9] INFO  c.o.ticketingsystem.thread.Customer - Customer has reached their ticket limit. Total tickets bought: 20
+2024-12-11 14:23:23 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-11 14:23:23 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
