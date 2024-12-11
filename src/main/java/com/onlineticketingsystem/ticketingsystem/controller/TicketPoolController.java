@@ -4,10 +4,9 @@ import com.onlineticketingsystem.ticketingsystem.model.Ticket;
 import com.onlineticketingsystem.ticketingsystem.service.TicketPoolService;
 import org.springframework.web.bind.annotation.*;
 import com.onlineticketingsystem.ticketingsystem.configuration.TicketingSystemRunner;
-
-
 import java.util.Queue;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/ticket-pool")
 public class TicketPoolController {
@@ -20,42 +19,26 @@ public class TicketPoolController {
         this.ticketingSystemRunner = ticketingSystemRunner;
     }
 
-    /**
-     * Start the system with vendor and customer threads
-     */
     @PostMapping("/start")
     public String startSystem() {
         return ticketingSystemRunner.startSystem();
     }
 
-    /**
-     * Stop the system by interrupting all customer and vendor threads
-     */
     @PostMapping("/stop")
     public String stopSystem() {
         return ticketingSystemRunner.stopSystem();
     }
 
-
-    /**
-     * Add ticket to the pool
-     */
     @PostMapping("/add-ticket")
-    public void addTicket(@RequestBody Ticket ticket) {
-        ticketPoolService.addTicket(ticket);
+    public void addTicket(@RequestBody Ticket ticket , int vendorID) {
+        ticketPoolService.addTicket(ticket,vendorID);
     }
 
-    /**
-     * Buy ticket from the pool
-     */
     @GetMapping("/buy-ticket")
     public Ticket buyTicket() {
         return ticketPoolService.buyTicket();
     }
 
-    /**
-     * Show all tickets in the pool
-     */
     @GetMapping("/show-all-tickets")
     public Queue<Ticket> getAllTickets() {
         return ticketPoolService.getAllTickets();

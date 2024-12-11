@@ -2,6 +2,7 @@ package com.onlineticketingsystem.ticketingsystem.service;
 
 import com.onlineticketingsystem.ticketingsystem.configuration.TicketingSystemConfiguration;
 import com.onlineticketingsystem.ticketingsystem.model.Ticket;
+import com.onlineticketingsystem.ticketingsystem.thread.Vendor;
 import lombok.Getter;
 import org.springframework.stereotype.Service;
 
@@ -16,6 +17,8 @@ public class TicketPoolService {
     private final int maximumTicketCapacity;
     private final TicketingSystemConfiguration config;
 
+    private int ticketCounter = 0;
+
 
     public TicketPoolService( TicketingSystemConfiguration config) {
         this.ticketQueue = new LinkedList<Ticket>();
@@ -24,31 +27,35 @@ public class TicketPoolService {
     }
 
 
-    public synchronized void addTicket(Ticket ticket) {
+    public synchronized void addTicket(Ticket ticket , int vendorID) {
         while (getTicketQueue().size() >= getMaximumTicketCapacity()) {
             try {
-                System.out.println("Waiting to add ticket...");
                 wait();
+                System.out.println("Ticket pool is full.Wait before add a new tickets...");
             } catch (InterruptedException e) {
                 throw new RuntimeException(e.getMessage());
             }
         }
         ticketQueue.add(ticket);
+        System.out.println("Vendor " + vendorID + " added ticket: " + ticket+ "Tote available tickets= "+ getTicketQueue().size());
+        ticketCounter++;
         notifyAll();
-        System.out.println("Ticket added by - " + Thread.currentThread().getName() + " - current size is - " + getTicketQueue().size());
+
     }
 
     public synchronized Ticket buyTicket() {
         while (getTicketQueue().isEmpty()) {
             try {
                 wait();
+                System.out.println("Ticket pool is empty.Wait before buy another ticket...");
             } catch (InterruptedException e) {
                 throw new RuntimeException(e.getMessage());
             }
         }
+        ticketCounter--;
         notifyAll();
-        System.out.println("Ticket bought by - " + Thread.currentThread().getName() + " - current size is - " + getTicketQueue().size());
         return ticketQueue.poll();
+
     }
 
     public Queue<Ticket> getAllTickets() {
