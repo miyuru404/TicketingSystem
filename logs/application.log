@@ -1765,3 +1765,938 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2024-12-12 05:22:52 [Thread-8] ERROR c.o.t.model.thread.Vendor - Vendor 2 thread interrupted.
 2024-12-12 05:22:59 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
 2024-12-12 05:22:59 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 08:42:02 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 16172 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 08:42:02 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 08:42:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-12 08:42:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-12 08:42:03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 08:42:03 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:42:03 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 08:42:03 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 08:42:03 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 08:42:03 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 940 ms
+2024-12-12 08:42:04 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 08:42:04 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:42:04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 08:42:04 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 1.877 seconds (process running for 2.535)
+2024-12-12 08:42:09 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 13 class path changes (0 additions, 12 deletions, 1 modification)
+2024-12-12 08:42:09 [Thread-5] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 08:42:09 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:42:09 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 08:42:09 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:42:09 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 16172 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 08:42:09 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 08:42:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 08:42:10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:42:10 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 08:42:10 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 08:42:10 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 08:42:10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 185 ms
+2024-12-12 08:42:10 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 08:42:10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:42:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 08:42:10 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 0.321 seconds (process running for 8.392)
+2024-12-12 08:42:10 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-12 08:42:11 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 12 class path changes (12 additions, 0 deletions, 0 modifications)
+2024-12-12 08:42:11 [Thread-7] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 08:42:11 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:42:11 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 08:42:11 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:42:11 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 16172 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 08:42:11 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 08:42:11 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - 'FileNamePattern' option has the same value "logs/application-%d{yyyy-MM-dd}.log" as that given for appender [FILE] defined earlier.
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Collisions detected with FileAppender/RollingAppender instances defined earlier. Aborting.
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - For more information, please visit http://logback.qos.ch/codes.html#earlier_fa_collision
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:353)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.onlineticketingsystem.ticketingsystem.TicketingSystemApplication.main(TicketingSystemApplication.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - 'FileNamePattern' option has the same value "logs/application-%d{yyyy-MM-dd}.log" as that given for appender [FILE] defined earlier.
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Collisions detected with FileAppender/RollingAppender instances defined earlier. Aborting.
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - For more information, please visit http://logback.qos.ch/codes.html#earlier_fa_collision
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:291)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:269)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:81)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:61)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:197)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 22 common frames omitted
+2024-12-12 08:42:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 08:42:11 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 143 ms
+2024-12-12 08:42:11 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 08:42:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 08:42:11 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 0.269 seconds (process running for 10.135)
+2024-12-12 08:42:11 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-12 08:42:18 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-12 08:42:18 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-12 08:42:33 [Thread-19] INFO  c.o.t.model.thread.Vendor - Vendor 2 has reached the ticket limit. Total tickets sold:  0
+2024-12-12 08:42:33 [Thread-20] INFO  c.o.t.model.thread.Customer - Customer has reached their ticket limit. Total tickets bought: 0
+2024-12-12 08:42:33 [Thread-21] INFO  c.o.t.model.thread.Customer - Customer has reached their ticket limit. Total tickets bought: 0
+2024-12-12 08:42:33 [Thread-18] INFO  c.o.t.model.thread.Vendor - Vendor 1 has reached the ticket limit. Total tickets sold:  0
+2024-12-12 08:43:34 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 08:43:34 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 08:43:36 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 20756 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 08:43:36 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 08:43:36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-12 08:43:36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-12 08:43:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 08:43:37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:43:37 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 08:43:37 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 08:43:37 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 08:43:37 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 849 ms
+2024-12-12 08:43:38 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 08:43:38 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:43:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 08:43:38 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 1.734 seconds (process running for 2.273)
+2024-12-12 08:44:16 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-12 08:44:16 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-12 08:44:16 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-12-12 08:44:16 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=1, eventID=V2EVT1, ticketPrice=1000) 
+2024-12-12 08:44:16 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=1, eventID=V1EVT1, ticketPrice=1000)
+2024-12-12 08:44:16 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=1, eventID=V2EVT1, ticketPrice=1000)
+2024-12-12 08:44:16 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=1, eventID=V1EVT1, ticketPrice=1000) 
+2024-12-12 08:44:17 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 08:44:17 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=2, eventID=V2EVT2, ticketPrice=1000)
+2024-12-12 08:44:17 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=2, eventID=V1EVT2, ticketPrice=1000)
+2024-12-12 08:44:17 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=2, eventID=V1EVT2, ticketPrice=1000) 
+2024-12-12 08:44:17 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=2, eventID=V2EVT2, ticketPrice=1000) 
+2024-12-12 08:44:18 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=3, eventID=V1EVT3, ticketPrice=1000)
+2024-12-12 08:44:18 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=3, eventID=V2EVT3, ticketPrice=1000)
+2024-12-12 08:44:18 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 08:44:18 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=3, eventID=V1EVT3, ticketPrice=1000) 
+2024-12-12 08:44:18 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=3, eventID=V2EVT3, ticketPrice=1000) 
+2024-12-12 08:44:19 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=4, eventID=V2EVT4, ticketPrice=1000)
+2024-12-12 08:44:19 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=4, eventID=V1EVT4, ticketPrice=1000)
+2024-12-12 08:44:19 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 08:44:19 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 08:44:19 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=4, eventID=V2EVT4, ticketPrice=1000) 
+2024-12-12 08:44:19 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=4, eventID=V1EVT4, ticketPrice=1000) 
+2024-12-12 08:44:21 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=5, eventID=V1EVT5, ticketPrice=1000)
+2024-12-12 08:44:21 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 08:44:21 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=5, eventID=V1EVT5, ticketPrice=1000) 
+2024-12-12 08:44:21 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 08:44:21 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=5, eventID=V2EVT5, ticketPrice=1000) 
+2024-12-12 08:44:21 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=5, eventID=V2EVT5, ticketPrice=1000)
+2024-12-12 08:44:22 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=6, eventID=V2EVT6, ticketPrice=1000)
+2024-12-12 08:44:22 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 08:44:22 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=6, eventID=V1EVT6, ticketPrice=1000)
+2024-12-12 08:44:22 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=6, eventID=V1EVT6, ticketPrice=1000) 
+2024-12-12 08:44:22 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 08:44:22 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=6, eventID=V2EVT6, ticketPrice=1000) 
+2024-12-12 08:44:23 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=7, eventID=V2EVT7, ticketPrice=1000)
+2024-12-12 08:44:23 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 08:44:23 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=7, eventID=V1EVT7, ticketPrice=1000) 
+2024-12-12 08:44:23 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 08:44:23 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=7, eventID=V2EVT7, ticketPrice=1000) 
+2024-12-12 08:44:23 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=7, eventID=V1EVT7, ticketPrice=1000)
+2024-12-12 08:44:24 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=8, eventID=V1EVT8, ticketPrice=1000)
+2024-12-12 08:44:24 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=8, eventID=V2EVT8, ticketPrice=1000)
+2024-12-12 08:44:24 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=8, eventID=V2EVT8, ticketPrice=1000) 
+2024-12-12 08:44:24 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=8, eventID=V1EVT8, ticketPrice=1000) 
+2024-12-12 08:44:26 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=9, eventID=V1EVT9, ticketPrice=1000)
+2024-12-12 08:44:26 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 08:44:26 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=9, eventID=V2EVT9, ticketPrice=1000)
+2024-12-12 08:44:26 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=9, eventID=V1EVT9, ticketPrice=1000) 
+2024-12-12 08:44:26 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 08:44:26 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=9, eventID=V2EVT9, ticketPrice=1000) 
+2024-12-12 08:44:27 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=10, eventID=V2EVT10, ticketPrice=1000) 
+2024-12-12 08:44:27 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=10, eventID=V2EVT10, ticketPrice=1000)
+2024-12-12 08:44:27 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=10, eventID=V1EVT10, ticketPrice=1000)
+2024-12-12 08:44:27 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=10, eventID=V1EVT10, ticketPrice=1000) 
+2024-12-12 08:44:28 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=11, eventID=V1EVT11, ticketPrice=1000)
+2024-12-12 08:44:28 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=11, eventID=V2EVT11, ticketPrice=1000)
+2024-12-12 08:44:28 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=11, eventID=V2EVT11, ticketPrice=1000) 
+2024-12-12 08:44:28 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=11, eventID=V1EVT11, ticketPrice=1000) 
+2024-12-12 08:44:29 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=12, eventID=V1EVT12, ticketPrice=1000)
+2024-12-12 08:44:29 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=12, eventID=V2EVT12, ticketPrice=1000)
+2024-12-12 08:44:29 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=12, eventID=V2EVT12, ticketPrice=1000) 
+2024-12-12 08:44:29 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=12, eventID=V1EVT12, ticketPrice=1000) 
+2024-12-12 08:44:30 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 08:44:30 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 08:45:00 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 24860 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 08:45:00 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 08:45:00 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-12 08:45:00 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-12 08:45:00 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 08:45:00 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:45:00 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 08:45:00 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 08:45:01 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 08:45:01 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 856 ms
+2024-12-12 08:45:01 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 08:45:01 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:45:01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 08:45:01 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 1.738 seconds (process running for 2.283)
+2024-12-12 08:45:13 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-12 08:45:13 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-12 08:45:13 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-12 08:45:46 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer has reached their ticket limit. Total tickets bought: 0
+2024-12-12 08:45:46 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 has reached the ticket limit. Total tickets sold:  0
+2024-12-12 08:45:46 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer has reached their ticket limit. Total tickets bought: 0
+2024-12-12 08:45:46 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 has reached the ticket limit. Total tickets sold:  0
+2024-12-12 08:49:30 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 08:49:30 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 08:49:31 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 13488 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 08:49:31 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 08:49:31 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-12 08:49:31 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-12 08:49:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 08:49:32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:49:32 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 08:49:32 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 08:49:32 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 08:49:32 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 834 ms
+2024-12-12 08:49:33 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 08:49:33 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:49:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 08:49:33 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 1.651 seconds (process running for 2.224)
+2024-12-12 08:49:44 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 08:49:44 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 08:49:47 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 888 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 08:49:47 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 08:49:47 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-12 08:49:47 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-12 08:49:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 08:49:47 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:49:47 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 08:49:47 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 08:49:47 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 08:49:47 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 844 ms
+2024-12-12 08:49:48 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 08:49:48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:49:48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 08:49:48 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 1.698 seconds (process running for 2.206)
+2024-12-12 08:50:02 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-12 08:50:02 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-12 08:50:02 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-12-12 08:51:10 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 has reached the ticket limit. Total tickets sold:  0
+2024-12-12 08:51:10 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer has reached their ticket limit. Total tickets bought: 0
+2024-12-12 08:51:10 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer has reached their ticket limit. Total tickets bought: 0
+2024-12-12 08:51:10 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 has reached the ticket limit. Total tickets sold:  0
+2024-12-12 08:51:18 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 08:51:18 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 08:51:20 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 400 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 08:51:20 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 08:51:20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-12 08:51:20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-12 08:51:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 08:51:21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:51:21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 08:51:21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 08:51:21 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 08:51:21 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 875 ms
+2024-12-12 08:51:21 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 08:51:21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:51:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 08:51:21 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 1.716 seconds (process running for 2.261)
+2024-12-12 08:51:30 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-12 08:51:30 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-12 08:51:30 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-12-12 08:51:41 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 08:51:41 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 08:51:43 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 13464 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 08:51:43 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 08:51:43 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-12 08:51:43 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-12 08:51:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 08:51:44 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:51:44 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 08:51:44 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 08:51:44 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 08:51:44 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 862 ms
+2024-12-12 08:51:45 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 08:51:45 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:51:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 08:51:45 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 1.718 seconds (process running for 2.249)
+2024-12-12 08:51:57 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-12 08:51:57 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-12 08:51:57 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-12 08:52:04 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer has reached their ticket limit. Total tickets bought: 0
+2024-12-12 08:52:04 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 has reached the ticket limit. Total tickets sold:  0
+2024-12-12 08:52:04 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer has reached their ticket limit. Total tickets bought: 0
+2024-12-12 08:52:04 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 has reached the ticket limit. Total tickets sold:  0
+2024-12-12 08:59:17 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 08:59:17 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 08:59:20 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 33104 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 08:59:20 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 08:59:20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-12 08:59:20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-12 08:59:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 08:59:21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:59:21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 08:59:21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 08:59:21 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 08:59:21 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 885 ms
+2024-12-12 08:59:21 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 08:59:21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 08:59:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 08:59:21 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 1.744 seconds (process running for 2.206)
+2024-12-12 08:59:35 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-12 08:59:35 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-12 08:59:35 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-12 08:59:38 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 has reached the ticket limit. Total tickets sold:  0
+2024-12-12 08:59:38 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer has reached their ticket limit. Total tickets bought: 0
+2024-12-12 08:59:38 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer has reached their ticket limit. Total tickets bought: 0
+2024-12-12 08:59:38 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 has reached the ticket limit. Total tickets sold:  0
+2024-12-12 09:04:25 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-12-12 09:04:25 [Thread-5] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 09:04:25 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:04:25 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 09:04:25 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:04:25 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 33104 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 09:04:25 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 09:04:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 09:04:25 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:04:25 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 09:04:25 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 09:04:25 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 09:04:25 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 316 ms
+2024-12-12 09:04:26 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 09:04:26 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:04:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 09:04:26 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 0.447 seconds (process running for 306.452)
+2024-12-12 09:04:26 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-12 09:04:27 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-12-12 09:04:27 [Thread-11] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 09:04:27 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:04:27 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 09:04:27 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:04:27 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 33104 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 09:04:27 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 09:04:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 09:04:27 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:04:27 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 09:04:27 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 09:04:27 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 09:04:27 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 163 ms
+2024-12-12 09:04:27 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 09:04:27 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:04:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 09:04:27 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 0.251 seconds (process running for 308.167)
+2024-12-12 09:04:27 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-12 09:09:44 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2024-12-12 09:09:44 [Thread-15] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 09:09:44 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:09:44 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 09:09:44 [Thread-15] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:09:45 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 33104 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 09:09:45 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 09:09:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 09:09:45 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:09:45 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 09:09:45 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 09:09:45 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 09:09:45 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 133 ms
+2024-12-12 09:09:45 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 09:09:45 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:09:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 09:09:45 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 0.212 seconds (process running for 625.624)
+2024-12-12 09:09:45 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-12 09:09:59 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 09:09:59 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 09:14:18 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 30072 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 09:14:18 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 09:14:18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-12 09:14:18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-12 09:14:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 09:14:19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:14:19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 09:14:19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 09:14:19 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 09:14:19 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 912 ms
+2024-12-12 09:14:19 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 09:14:19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:14:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 09:14:19 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 1.759 seconds (process running for 2.258)
+2024-12-12 09:14:27 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-12 09:14:27 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-12 09:14:27 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-12-12 09:16:25 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 09:16:25 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 09:16:27 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 31756 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 09:16:27 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 09:16:27 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-12 09:16:27 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-12 09:16:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 09:16:27 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:16:27 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 09:16:27 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 09:16:27 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 09:16:27 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 781 ms
+2024-12-12 09:16:28 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 09:16:28 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:16:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 09:16:28 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 1.577 seconds (process running for 2.102)
+2024-12-12 09:16:45 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-12 09:16:45 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-12 09:16:45 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-12 09:16:45 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=1, eventID=V1EVT1, ticketPrice=1000)
+2024-12-12 09:16:45 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=1, eventID=V2EVT1, ticketPrice=1000) 
+2024-12-12 09:16:45 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=1, eventID=V1EVT1, ticketPrice=1000) 
+2024-12-12 09:16:45 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=1, eventID=V2EVT1, ticketPrice=1000)
+2024-12-12 09:16:45 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:45 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=2, eventID=V1EVT2, ticketPrice=1000)
+2024-12-12 09:16:45 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=2, eventID=V1EVT2, ticketPrice=1000) 
+2024-12-12 09:16:45 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=2, eventID=V2EVT2, ticketPrice=1000)
+2024-12-12 09:16:45 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:45 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=2, eventID=V2EVT2, ticketPrice=1000) 
+2024-12-12 09:16:45 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=3, eventID=V1EVT3, ticketPrice=1000)
+2024-12-12 09:16:45 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:45 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=3, eventID=V2EVT3, ticketPrice=1000)
+2024-12-12 09:16:45 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=3, eventID=V1EVT3, ticketPrice=1000) 
+2024-12-12 09:16:45 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=3, eventID=V2EVT3, ticketPrice=1000) 
+2024-12-12 09:16:45 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=4, eventID=V1EVT4, ticketPrice=1000)
+2024-12-12 09:16:45 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=4, eventID=V2EVT4, ticketPrice=1000) 
+2024-12-12 09:16:45 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=4, eventID=V2EVT4, ticketPrice=1000)
+2024-12-12 09:16:45 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=4, eventID=V1EVT4, ticketPrice=1000) 
+2024-12-12 09:16:45 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=5, eventID=V1EVT5, ticketPrice=1000)
+2024-12-12 09:16:45 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=5, eventID=V2EVT5, ticketPrice=1000)
+2024-12-12 09:16:45 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=5, eventID=V1EVT5, ticketPrice=1000) 
+2024-12-12 09:16:45 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=5, eventID=V2EVT5, ticketPrice=1000) 
+2024-12-12 09:16:46 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=6, eventID=V1EVT6, ticketPrice=1000)
+2024-12-12 09:16:46 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=6, eventID=V1EVT6, ticketPrice=1000) 
+2024-12-12 09:16:46 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=6, eventID=V2EVT6, ticketPrice=1000)
+2024-12-12 09:16:46 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=6, eventID=V2EVT6, ticketPrice=1000) 
+2024-12-12 09:16:46 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=7, eventID=V2EVT7, ticketPrice=1000)
+2024-12-12 09:16:46 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=7, eventID=V2EVT7, ticketPrice=1000) 
+2024-12-12 09:16:46 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:46 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:46 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=7, eventID=V1EVT7, ticketPrice=1000)
+2024-12-12 09:16:46 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=7, eventID=V1EVT7, ticketPrice=1000) 
+2024-12-12 09:16:46 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=8, eventID=V1EVT8, ticketPrice=1000)
+2024-12-12 09:16:46 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:46 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=8, eventID=V1EVT8, ticketPrice=1000) 
+2024-12-12 09:16:46 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=8, eventID=V2EVT8, ticketPrice=1000)
+2024-12-12 09:16:46 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=8, eventID=V2EVT8, ticketPrice=1000) 
+2024-12-12 09:16:46 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:46 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=9, eventID=V1EVT9, ticketPrice=1000) 
+2024-12-12 09:16:46 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=9, eventID=V1EVT9, ticketPrice=1000)
+2024-12-12 09:16:46 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=9, eventID=V2EVT9, ticketPrice=1000)
+2024-12-12 09:16:46 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:46 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=9, eventID=V2EVT9, ticketPrice=1000) 
+2024-12-12 09:16:46 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:46 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=10, eventID=V1EVT10, ticketPrice=1000)
+2024-12-12 09:16:46 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=10, eventID=V1EVT10, ticketPrice=1000) 
+2024-12-12 09:16:46 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:46 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=10, eventID=V2EVT10, ticketPrice=1000)
+2024-12-12 09:16:46 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=10, eventID=V2EVT10, ticketPrice=1000) 
+2024-12-12 09:16:46 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=11, eventID=V1EVT11, ticketPrice=1000) 
+2024-12-12 09:16:46 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=11, eventID=V1EVT11, ticketPrice=1000)
+2024-12-12 09:16:46 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=11, eventID=V2EVT11, ticketPrice=1000)
+2024-12-12 09:16:46 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:46 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=11, eventID=V2EVT11, ticketPrice=1000) 
+2024-12-12 09:16:46 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:46 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=12, eventID=V1EVT12, ticketPrice=1000) 
+2024-12-12 09:16:46 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=12, eventID=V1EVT12, ticketPrice=1000)
+2024-12-12 09:16:46 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:46 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=12, eventID=V2EVT12, ticketPrice=1000)
+2024-12-12 09:16:46 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=12, eventID=V2EVT12, ticketPrice=1000) 
+2024-12-12 09:16:46 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:46 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=13, eventID=V1EVT13, ticketPrice=1000) 
+2024-12-12 09:16:46 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=13, eventID=V1EVT13, ticketPrice=1000)
+2024-12-12 09:16:46 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:46 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=13, eventID=V2EVT13, ticketPrice=1000) 
+2024-12-12 09:16:46 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=13, eventID=V2EVT13, ticketPrice=1000)
+2024-12-12 09:16:47 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=14, eventID=V2EVT14, ticketPrice=1000)
+2024-12-12 09:16:47 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=14, eventID=V1EVT14, ticketPrice=1000)
+2024-12-12 09:16:47 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:47 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:47 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=14, eventID=V2EVT14, ticketPrice=1000) 
+2024-12-12 09:16:47 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=14, eventID=V1EVT14, ticketPrice=1000) 
+2024-12-12 09:16:47 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:47 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=15, eventID=V1EVT15, ticketPrice=1000)
+2024-12-12 09:16:47 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=15, eventID=V1EVT15, ticketPrice=1000) 
+2024-12-12 09:16:47 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:47 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=15, eventID=V2EVT15, ticketPrice=1000) 
+2024-12-12 09:16:47 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=15, eventID=V2EVT15, ticketPrice=1000)
+2024-12-12 09:16:47 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=16, eventID=V1EVT16, ticketPrice=1000)
+2024-12-12 09:16:47 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=16, eventID=V1EVT16, ticketPrice=1000) 
+2024-12-12 09:16:47 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=16, eventID=V2EVT16, ticketPrice=1000)
+2024-12-12 09:16:47 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:47 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=16, eventID=V2EVT16, ticketPrice=1000) 
+2024-12-12 09:16:47 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=17, eventID=V1EVT17, ticketPrice=1000)
+2024-12-12 09:16:47 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=17, eventID=V1EVT17, ticketPrice=1000) 
+2024-12-12 09:16:47 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=17, eventID=V2EVT17, ticketPrice=1000) 
+2024-12-12 09:16:47 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=17, eventID=V2EVT17, ticketPrice=1000)
+2024-12-12 09:16:47 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=18, eventID=V1EVT18, ticketPrice=1000)
+2024-12-12 09:16:47 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:47 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=18, eventID=V1EVT18, ticketPrice=1000) 
+2024-12-12 09:16:47 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=18, eventID=V2EVT18, ticketPrice=1000)
+2024-12-12 09:16:47 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:47 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=18, eventID=V2EVT18, ticketPrice=1000) 
+2024-12-12 09:16:47 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:47 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=19, eventID=V1EVT19, ticketPrice=1000) 
+2024-12-12 09:16:47 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=19, eventID=V1EVT19, ticketPrice=1000)
+2024-12-12 09:16:47 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=19, eventID=V2EVT19, ticketPrice=1000)
+2024-12-12 09:16:47 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=19, eventID=V2EVT19, ticketPrice=1000) 
+2024-12-12 09:16:47 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=20, eventID=V1EVT20, ticketPrice=1000)
+2024-12-12 09:16:47 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=20, eventID=V1EVT20, ticketPrice=1000) 
+2024-12-12 09:16:47 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=20, eventID=V2EVT20, ticketPrice=1000)
+2024-12-12 09:16:47 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=20, eventID=V2EVT20, ticketPrice=1000) 
+2024-12-12 09:16:47 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=21, eventID=V1EVT21, ticketPrice=1000)
+2024-12-12 09:16:47 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 09:16:47 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=21, eventID=V1EVT21, ticketPrice=1000) 
+2024-12-12 09:16:47 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=21, eventID=V2EVT21, ticketPrice=1000) 
+2024-12-12 09:16:47 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=21, eventID=V2EVT21, ticketPrice=1000)
+2024-12-12 09:16:47 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=22, eventID=V1EVT22, ticketPrice=1000)
+2024-12-12 09:16:47 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=22, eventID=V1EVT22, ticketPrice=1000) 
+2024-12-12 09:16:47 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=22, eventID=V2EVT22, ticketPrice=1000) 
+2024-12-12 09:16:47 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=22, eventID=V2EVT22, ticketPrice=1000)
+2024-12-12 09:16:48 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=23, eventID=V1EVT23, ticketPrice=1000)
+2024-12-12 09:16:48 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=23, eventID=V2EVT23, ticketPrice=1000)
+2024-12-12 09:16:48 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=23, eventID=V1EVT23, ticketPrice=1000) 
+2024-12-12 09:16:48 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=23, eventID=V2EVT23, ticketPrice=1000) 
+2024-12-12 09:16:48 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 has reached the ticket limit. Total tickets sold:  23
+2024-12-12 09:16:48 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 has reached the ticket limit. Total tickets sold:  23
+2024-12-12 09:24:15 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-12-12 09:24:15 [Thread-5] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 09:24:15 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:24:16 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 09:24:16 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:24:16 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 31756 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 09:24:16 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 09:24:16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 09:24:16 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:24:16 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 09:24:16 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 09:24:16 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 09:24:16 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 163 ms
+2024-12-12 09:24:16 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 09:24:16 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:24:16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 09:24:16 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 0.263 seconds (process running for 470.207)
+2024-12-12 09:24:16 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-12 09:24:17 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+2024-12-12 09:24:17 [Thread-11] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 09:24:17 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:24:17 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 09:24:17 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:24:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-12 09:24:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-12 09:24:17 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 31756 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 09:24:17 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 09:24:17 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 31756 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 09:24:17 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 09:24:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 09:24:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 09:24:17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:24:17 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 09:24:17 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 09:24:17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 09:24:17 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 09:24:17 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 09:24:17 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 09:24:17 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 09:24:17 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 141 ms
+2024-12-12 09:24:17 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 140 ms
+2024-12-12 09:24:18 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: org.springframework.boot:type=Admin,name=SpringApplication
+2024-12-12 09:24:18 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-12-12 09:24:18 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-12 09:24:18 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 09:24:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 09:24:18 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 0.216 seconds (process running for 471.906)
+2024-12-12 09:24:18 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-12 09:24:18 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: org.springframework.boot:type=Admin,name=SpringApplication
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1122)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.onlineticketingsystem.ticketingsystem.TicketingSystemApplication.main(TicketingSystemApplication.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:322)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1848)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:945)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:880)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:315)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:523)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar.afterPropertiesSet(SpringApplicationAdminMXBeanRegistrar.java:129)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1849)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1798)
+	... 21 common frames omitted
+2024-12-12 09:24:28 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 09:24:28 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 10:11:21 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 19864 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 10:11:21 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 10:11:21 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-12 10:11:21 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-12 10:11:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 10:11:21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 10:11:21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 10:11:21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 10:11:22 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 10:11:22 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 958 ms
+2024-12-12 10:11:22 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 10:11:22 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 10:11:22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 10:11:22 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 1.906 seconds (process running for 2.495)
+2024-12-12 10:13:57 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 14856 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 10:13:57 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 10:13:57 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-12 10:13:57 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-12 10:13:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 10:13:58 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 10:13:58 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 10:13:58 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 10:13:58 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 10:13:58 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 753 ms
+2024-12-12 10:13:58 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 10:13:58 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 10:13:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 10:13:58 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 1.585 seconds (process running for 2.039)
+2024-12-12 10:14:22 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=1, eventID=V1EVT1, ticketPrice=1000)
+2024-12-12 10:14:22 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=1, eventID=V2EVT1, ticketPrice=1000) 
+2024-12-12 10:14:22 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=1, eventID=V1EVT1, ticketPrice=1000) 
+2024-12-12 10:14:22 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=1, eventID=V2EVT1, ticketPrice=1000)
+2024-12-12 10:14:22 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=2, eventID=V1EVT2, ticketPrice=1000)
+2024-12-12 10:14:22 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:22 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=2, eventID=V1EVT2, ticketPrice=1000) 
+2024-12-12 10:14:22 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:22 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=2, eventID=V2EVT2, ticketPrice=1000)
+2024-12-12 10:14:22 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:22 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=2, eventID=V2EVT2, ticketPrice=1000) 
+2024-12-12 10:14:22 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:22 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=3, eventID=V1EVT3, ticketPrice=1000) 
+2024-12-12 10:14:22 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=3, eventID=V1EVT3, ticketPrice=1000)
+2024-12-12 10:14:22 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:22 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=3, eventID=V2EVT3, ticketPrice=1000)
+2024-12-12 10:14:22 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:22 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=3, eventID=V2EVT3, ticketPrice=1000) 
+2024-12-12 10:14:23 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=4, eventID=V1EVT4, ticketPrice=1000)
+2024-12-12 10:14:23 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:23 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=4, eventID=V1EVT4, ticketPrice=1000) 
+2024-12-12 10:14:23 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:23 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:23 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=4, eventID=V2EVT4, ticketPrice=1000) 
+2024-12-12 10:14:23 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=4, eventID=V2EVT4, ticketPrice=1000)
+2024-12-12 10:14:23 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:23 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=5, eventID=V1EVT5, ticketPrice=1000)
+2024-12-12 10:14:23 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=5, eventID=V1EVT5, ticketPrice=1000) 
+2024-12-12 10:14:23 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:23 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=5, eventID=V2EVT5, ticketPrice=1000)
+2024-12-12 10:14:23 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:23 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=5, eventID=V2EVT5, ticketPrice=1000) 
+2024-12-12 10:14:23 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:23 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=6, eventID=V1EVT6, ticketPrice=1000)
+2024-12-12 10:14:23 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=6, eventID=V1EVT6, ticketPrice=1000) 
+2024-12-12 10:14:23 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:23 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:23 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=6, eventID=V2EVT6, ticketPrice=1000)
+2024-12-12 10:14:23 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=6, eventID=V2EVT6, ticketPrice=1000) 
+2024-12-12 10:14:23 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:23 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=7, eventID=V1EVT7, ticketPrice=1000) 
+2024-12-12 10:14:23 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=7, eventID=V1EVT7, ticketPrice=1000)
+2024-12-12 10:14:23 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:23 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=7, eventID=V2EVT7, ticketPrice=1000)
+2024-12-12 10:14:23 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:23 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=7, eventID=V2EVT7, ticketPrice=1000) 
+2024-12-12 10:14:23 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=8, eventID=V1EVT8, ticketPrice=1000)
+2024-12-12 10:14:23 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:23 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=8, eventID=V1EVT8, ticketPrice=1000) 
+2024-12-12 10:14:23 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:23 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:23 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=8, eventID=V2EVT8, ticketPrice=1000) 
+2024-12-12 10:14:23 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=8, eventID=V2EVT8, ticketPrice=1000)
+2024-12-12 10:14:24 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=9, eventID=V1EVT9, ticketPrice=1000)
+2024-12-12 10:14:24 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:24 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=9, eventID=V1EVT9, ticketPrice=1000) 
+2024-12-12 10:14:24 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:24 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:24 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=9, eventID=V2EVT9, ticketPrice=1000)
+2024-12-12 10:14:24 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=9, eventID=V2EVT9, ticketPrice=1000) 
+2024-12-12 10:14:24 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:24 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=10, eventID=V1EVT10, ticketPrice=1000) 
+2024-12-12 10:14:24 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=10, eventID=V1EVT10, ticketPrice=1000)
+2024-12-12 10:14:24 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:24 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=10, eventID=V2EVT10, ticketPrice=1000)
+2024-12-12 10:14:24 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:24 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=10, eventID=V2EVT10, ticketPrice=1000) 
+2024-12-12 10:14:24 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=11, eventID=V1EVT11, ticketPrice=1000)
+2024-12-12 10:14:24 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:24 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=11, eventID=V1EVT11, ticketPrice=1000) 
+2024-12-12 10:14:24 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:24 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:24 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=11, eventID=V2EVT11, ticketPrice=1000)
+2024-12-12 10:14:24 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=11, eventID=V2EVT11, ticketPrice=1000) 
+2024-12-12 10:14:24 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:24 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=12, eventID=V1EVT12, ticketPrice=1000) 
+2024-12-12 10:14:24 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:24 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=12, eventID=V1EVT12, ticketPrice=1000)
+2024-12-12 10:14:24 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=12, eventID=V2EVT12, ticketPrice=1000)
+2024-12-12 10:14:24 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:14:24 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=12, eventID=V2EVT12, ticketPrice=1000) 
+2024-12-12 10:14:25 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 has reached the ticket limit. Total tickets sold:  12
+2024-12-12 10:14:25 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 has reached the ticket limit. Total tickets sold:  12
+2024-12-12 10:14:58 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 10:14:58 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 10:15:53 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 30276 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 10:15:53 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 10:15:53 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-12 10:15:53 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-12 10:15:54 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 10:15:54 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 10:15:54 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 10:15:54 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 10:15:54 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 10:15:54 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 839 ms
+2024-12-12 10:15:54 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 10:15:54 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 10:15:54 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 10:15:54 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 1.681 seconds (process running for 2.145)
+2024-12-12 10:19:14 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 10:19:14 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 10:19:17 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 18352 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 10:19:17 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 10:19:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-12 10:19:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-12 10:19:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 10:19:18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 10:19:18 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 10:19:18 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 10:19:18 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 10:19:18 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 834 ms
+2024-12-12 10:19:18 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 10:19:18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 10:19:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 10:19:18 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 1.728 seconds (process running for 2.214)
+2024-12-12 10:19:51 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer has reached their ticket limit. Total tickets bought: 0
+2024-12-12 10:19:51 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 has reached the ticket limit. Total tickets sold:  0
+2024-12-12 10:19:51 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 has reached the ticket limit. Total tickets sold:  0
+2024-12-12 10:19:51 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer has reached their ticket limit. Total tickets bought: 0
+2024-12-12 10:20:21 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-12-12 10:20:21 [Thread-5] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 10:20:21 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-12 10:20:21 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 10:20:21 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-12 10:20:21 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 18352 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 10:20:21 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 10:20:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 10:20:21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 10:20:21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 10:20:21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 10:20:21 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 10:20:21 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 166 ms
+2024-12-12 10:20:21 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 10:20:21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 10:20:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 10:20:21 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 0.289 seconds (process running for 65.281)
+2024-12-12 10:20:21 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-12 10:20:23 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-12-12 10:20:23 [Thread-11] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 10:20:23 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-12 10:20:23 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 10:20:23 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-12 10:20:23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-12 10:20:23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-12 10:20:23 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 18352 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 10:20:23 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 10:20:23 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 18352 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 10:20:23 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 10:20:23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 10:20:23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 10:20:23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 10:20:23 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 10:20:23 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 10:20:23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 10:20:23 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 10:20:23 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 10:20:23 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 10:20:23 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 138 ms
+2024-12-12 10:20:23 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 10:20:23 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 142 ms
+2024-12-12 10:20:23 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: org.springframework.boot:type=Admin,name=SpringApplication
+2024-12-12 10:20:23 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-12-12 10:20:23 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-12 10:20:23 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 10:20:23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 10:20:23 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 0.216 seconds (process running for 66.961)
+2024-12-12 10:20:23 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-12 10:20:23 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: org.springframework.boot:type=Admin,name=SpringApplication
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1122)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.onlineticketingsystem.ticketingsystem.TicketingSystemApplication.main(TicketingSystemApplication.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:322)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1848)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:945)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:880)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:315)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:523)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar.afterPropertiesSet(SpringApplicationAdminMXBeanRegistrar.java:129)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1849)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1798)
+	... 21 common frames omitted
+2024-12-12 10:20:58 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 10:20:58 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-12 10:21:00 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 21.0.3 with PID 27428 (C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End\target\classes started by miyur in C:\Users\miyur\OneDrive - University of Westminster\Desktop\New folder (4)\Ticketing-System-Back-End)
+2024-12-12 10:21:00 [restartedMain] INFO  c.o.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 10:21:00 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-12 10:21:00 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-12 10:21:01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-12 10:21:01 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-12 10:21:01 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-12 10:21:01 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12 10:21:01 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-12 10:21:01 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 919 ms
+2024-12-12 10:21:01 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-12 10:21:01 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-12 10:21:01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-12 10:21:01 [restartedMain] INFO  c.o.t.TicketingSystemApplication - Started TicketingSystemApplication in 1.793 seconds (process running for 2.271)
+2024-12-12 10:21:07 [Thread-9] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:21:07 [Thread-10] WARN  c.o.t.service.TicketPoolService - Ticket pool is empty.Wait before buy another ticket...
+2024-12-12 10:21:07 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=1, eventID=V2EVT1, ticketPrice=1000)
+2024-12-12 10:21:07 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=1, eventID=V1EVT1, ticketPrice=1000) 
+2024-12-12 10:21:07 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=1, eventID=V1EVT1, ticketPrice=1000)
+2024-12-12 10:21:07 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=1, eventID=V2EVT1, ticketPrice=1000) 
+2024-12-12 10:21:07 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=2, eventID=V2EVT2, ticketPrice=1000)
+2024-12-12 10:21:07 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=2, eventID=V1EVT2, ticketPrice=1000)
+2024-12-12 10:21:08 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=2, eventID=V1EVT2, ticketPrice=1000) 
+2024-12-12 10:21:08 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=2, eventID=V2EVT2, ticketPrice=1000) 
+2024-12-12 10:21:08 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=3, eventID=V1EVT3, ticketPrice=1000)
+2024-12-12 10:21:08 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=3, eventID=V2EVT3, ticketPrice=1000)
+2024-12-12 10:21:08 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=4, eventID=V1EVT4, ticketPrice=1000)
+2024-12-12 10:21:08 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=4, eventID=V2EVT4, ticketPrice=1000)
+2024-12-12 10:21:08 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=3, eventID=V2EVT3, ticketPrice=1000) 
+2024-12-12 10:21:08 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=3, eventID=V1EVT3, ticketPrice=1000) 
+2024-12-12 10:21:08 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=5, eventID=V1EVT5, ticketPrice=1000)
+2024-12-12 10:21:08 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=5, eventID=V2EVT5, ticketPrice=1000)
+2024-12-12 10:21:08 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=6, eventID=V1EVT6, ticketPrice=1000)
+2024-12-12 10:21:08 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=6, eventID=V2EVT6, ticketPrice=1000)
+2024-12-12 10:21:08 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=4, eventID=V2EVT4, ticketPrice=1000) 
+2024-12-12 10:21:08 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=4, eventID=V1EVT4, ticketPrice=1000) 
+2024-12-12 10:21:08 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=7, eventID=V1EVT7, ticketPrice=1000)
+2024-12-12 10:21:08 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=7, eventID=V2EVT7, ticketPrice=1000)
+2024-12-12 10:21:08 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=8, eventID=V1EVT8, ticketPrice=1000)
+2024-12-12 10:21:08 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=8, eventID=V2EVT8, ticketPrice=1000)
+2024-12-12 10:21:08 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=5, eventID=V1EVT5, ticketPrice=1000) 
+2024-12-12 10:21:08 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=5, eventID=V2EVT5, ticketPrice=1000) 
+2024-12-12 10:21:08 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=9, eventID=V1EVT9, ticketPrice=1000)
+2024-12-12 10:21:08 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=9, eventID=V2EVT9, ticketPrice=1000)
+2024-12-12 10:21:08 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=10, eventID=V1EVT10, ticketPrice=1000)
+2024-12-12 10:21:08 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=10, eventID=V2EVT10, ticketPrice=1000)
+2024-12-12 10:21:08 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=6, eventID=V1EVT6, ticketPrice=1000) 
+2024-12-12 10:21:08 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=6, eventID=V2EVT6, ticketPrice=1000) 
+2024-12-12 10:21:09 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=11, eventID=V1EVT11, ticketPrice=1000)
+2024-12-12 10:21:09 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=11, eventID=V2EVT11, ticketPrice=1000)
+2024-12-12 10:21:09 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=12, eventID=V1EVT12, ticketPrice=1000)
+2024-12-12 10:21:09 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=12, eventID=V2EVT12, ticketPrice=1000)
+2024-12-12 10:21:09 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=7, eventID=V1EVT7, ticketPrice=1000) 
+2024-12-12 10:21:09 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=7, eventID=V2EVT7, ticketPrice=1000) 
+2024-12-12 10:21:09 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=13, eventID=V1EVT13, ticketPrice=1000)
+2024-12-12 10:21:09 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=13, eventID=V2EVT13, ticketPrice=1000)
+2024-12-12 10:21:09 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=14, eventID=V1EVT14, ticketPrice=1000)
+2024-12-12 10:21:09 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=14, eventID=V2EVT14, ticketPrice=1000)
+2024-12-12 10:21:09 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=8, eventID=V1EVT8, ticketPrice=1000) 
+2024-12-12 10:21:09 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=8, eventID=V2EVT8, ticketPrice=1000) 
+2024-12-12 10:21:09 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=15, eventID=V1EVT15, ticketPrice=1000)
+2024-12-12 10:21:09 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=15, eventID=V2EVT15, ticketPrice=1000)
+2024-12-12 10:21:09 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=16, eventID=V2EVT16, ticketPrice=1000)
+2024-12-12 10:21:09 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=16, eventID=V1EVT16, ticketPrice=1000)
+2024-12-12 10:21:09 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=9, eventID=V1EVT9, ticketPrice=1000) 
+2024-12-12 10:21:09 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=9, eventID=V2EVT9, ticketPrice=1000) 
+2024-12-12 10:21:09 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=17, eventID=V1EVT17, ticketPrice=1000)
+2024-12-12 10:21:09 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=17, eventID=V2EVT17, ticketPrice=1000)
+2024-12-12 10:21:09 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=10, eventID=V2EVT10, ticketPrice=1000) 
+2024-12-12 10:21:09 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=10, eventID=V1EVT10, ticketPrice=1000) 
+2024-12-12 10:21:09 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=18, eventID=V2EVT18, ticketPrice=1000)
+2024-12-12 10:21:09 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=18, eventID=V1EVT18, ticketPrice=1000)
+2024-12-12 10:21:10 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=19, eventID=V2EVT19, ticketPrice=1000)
+2024-12-12 10:21:10 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=19, eventID=V1EVT19, ticketPrice=1000)
+2024-12-12 10:21:10 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=11, eventID=V2EVT11, ticketPrice=1000) 
+2024-12-12 10:21:10 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=11, eventID=V1EVT11, ticketPrice=1000) 
+2024-12-12 10:21:10 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=20, eventID=V1EVT20, ticketPrice=1000)
+2024-12-12 10:21:10 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=20, eventID=V2EVT20, ticketPrice=1000)
+2024-12-12 10:21:10 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=21, eventID=V1EVT21, ticketPrice=1000)
+2024-12-12 10:21:10 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=21, eventID=V2EVT21, ticketPrice=1000)
+2024-12-12 10:21:10 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=12, eventID=V2EVT12, ticketPrice=1000) 
+2024-12-12 10:21:10 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=12, eventID=V1EVT12, ticketPrice=1000) 
+2024-12-12 10:21:10 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=22, eventID=V2EVT22, ticketPrice=1000)
+2024-12-12 10:21:10 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=22, eventID=V1EVT22, ticketPrice=1000)
+2024-12-12 10:21:10 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 added ticket: Ticket(ticketId=23, eventID=V1EVT23, ticketPrice=1000)
+2024-12-12 10:21:10 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 added ticket: Ticket(ticketId=23, eventID=V2EVT23, ticketPrice=1000)
+2024-12-12 10:21:10 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=13, eventID=V1EVT13, ticketPrice=1000) 
+2024-12-12 10:21:10 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=13, eventID=V2EVT13, ticketPrice=1000) 
+2024-12-12 10:21:10 [Thread-7] INFO  c.o.t.model.thread.Vendor - Vendor 1 has reached the ticket limit. Total tickets sold:  23
+2024-12-12 10:21:10 [Thread-8] INFO  c.o.t.model.thread.Vendor - Vendor 2 has reached the ticket limit. Total tickets sold:  23
+2024-12-12 10:21:10 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=14, eventID=V1EVT14, ticketPrice=1000) 
+2024-12-12 10:21:10 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=14, eventID=V2EVT14, ticketPrice=1000) 
+2024-12-12 10:21:11 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=15, eventID=V2EVT15, ticketPrice=1000) 
+2024-12-12 10:21:11 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=15, eventID=V1EVT15, ticketPrice=1000) 
+2024-12-12 10:21:11 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=16, eventID=V1EVT16, ticketPrice=1000) 
+2024-12-12 10:21:11 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=16, eventID=V2EVT16, ticketPrice=1000) 
+2024-12-12 10:21:11 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=17, eventID=V2EVT17, ticketPrice=1000) 
+2024-12-12 10:21:11 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=17, eventID=V1EVT17, ticketPrice=1000) 
+2024-12-12 10:21:11 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=18, eventID=V2EVT18, ticketPrice=1000) 
+2024-12-12 10:21:11 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=18, eventID=V1EVT18, ticketPrice=1000) 
+2024-12-12 10:21:11 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=19, eventID=V2EVT19, ticketPrice=1000) 
+2024-12-12 10:21:11 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=19, eventID=V1EVT19, ticketPrice=1000) 
+2024-12-12 10:21:12 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=20, eventID=V1EVT20, ticketPrice=1000) 
+2024-12-12 10:21:12 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=20, eventID=V2EVT20, ticketPrice=1000) 
+2024-12-12 10:21:12 [Thread-9] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=21, eventID=V2EVT21, ticketPrice=1000) 
+2024-12-12 10:21:12 [Thread-10] INFO  c.o.t.model.thread.Customer - Customer bought ticket: Ticket(ticketId=21, eventID=V1EVT21, ticketPrice=1000) 
+2024-12-12 10:21:12 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12 10:21:12 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete

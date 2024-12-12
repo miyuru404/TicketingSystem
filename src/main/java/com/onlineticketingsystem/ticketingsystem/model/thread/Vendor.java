@@ -20,7 +20,7 @@ public class Vendor extends Thread {
 
     private final TicketPoolService ticketPoolService; // Dependency Injection
     private final ConfigurationService config; // Dependency Injection
-    //creat  logger object from Logger class
+
     private static final Logger logger = LoggerFactory.getLogger(Vendor.class);
 
 

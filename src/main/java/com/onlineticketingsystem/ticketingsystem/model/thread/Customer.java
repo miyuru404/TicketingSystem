@@ -10,8 +10,8 @@ import org.slf4j.LoggerFactory;
 public class Customer extends Thread {
 
 
-    private  int customerRetrievalRate;
-    private  int totalTicketCanBuy;
+    private int customerRetrievalRate;
+    private int totalTicketCanBuy;
     private int totalTicketCount = 0;
 
     private static final Logger logger = LoggerFactory.getLogger(Customer.class);
@@ -20,7 +20,7 @@ public class Customer extends Thread {
 
 
     // Constructor with dependency injected
-    public Customer(TicketPoolService ticketPoolService ,ConfigurationService config) {
+    public Customer(TicketPoolService ticketPoolService, ConfigurationService config) {
         this.ticketPoolService = ticketPoolService;
         this.config = config;
 

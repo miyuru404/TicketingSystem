@@ -17,8 +17,7 @@ public class TicketingSystemApplication {
         configurationService.getInput();
 
         TicketingSystemRunner runner = context.getBean(TicketingSystemRunner.class);
-        //runner. getConfiguration();
-       // runner.startSystem();
+        runner.startSystem();
 
 
 

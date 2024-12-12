@@ -18,13 +18,5 @@ public class Configuration {
         this.customerRetrievalRate = customerRetrievalRate;
         this.maxTicketCapacity = maxTicketCapacity;
     }
-    public void initializeConfiguration(int maximumTicketCapacity, int customerRetrievalRate, int ticketReleaseRate, int totalTickets) {
-        setTicketReleaseRate(ticketReleaseRate);
-        setCustomerRetrievalRate(customerRetrievalRate);
-        setTicketReleaseRate(ticketReleaseRate);
-        setTotalTicketAmount(totalTickets);
-        //log.info("Configuration Details :\n MaximumTicketCapacity: {} \n,  CustomerRetrievalRate: {}\n, TicketReleaseRate: {}\n, TotalTickets {}\n",
-                //getMaximumTicketCapacity(),getCustomerRetrievalRate(),getTicketReleaseRate(),getTotalTickets());
 
-    }
 }

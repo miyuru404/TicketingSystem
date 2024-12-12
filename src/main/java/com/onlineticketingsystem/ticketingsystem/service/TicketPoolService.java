@@ -25,10 +25,7 @@ public class TicketPoolService {
         this.ticketQueue = new LinkedList<Ticket>();
         this.config = config;
 
-
     }
-
-
 
     public synchronized void addTicket(Ticket ticket , int vendorID) {
         this.maximumTicketCapacity = config.getConfig().getMaxTicketCapacity();

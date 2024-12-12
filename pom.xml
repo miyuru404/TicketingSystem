@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.onlineTicketingSystem</groupId>
-    <artifactId>ticketingSystem-BackEnd</artifactId>
+    <artifactId>Ticketing-System-Back-End</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ticketingSystem</name>
     <description>ticketingSystem</description>
